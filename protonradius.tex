@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{tabularx}
+
+\begin{document}
+
+\section{Abstract}
+This work describes the expression of the radius of the proton through the help of a universal system of units. This expression corresponds with empirical observations. We constructed a measurement system in which the mass of the proton ($m_p$) is substituted by the mass of the neutron ($m_n$). This adjustment enables us to deduce the radius of the neutron. The significance of this value is unclear until the empirical findings in relation to the radius of the neutron narrow their error bands. Based on the resulting relationships, we can explain the dynamics of the valence quarks as well. $u$ quarks in the perimeter of the proton orbit $d$ quarks that are at the center, at a velocity of $c/4$ and create a stable 3-body formation. The $c/4$ velocity of the $u$ quarks is supported by the fact that the $m_u$ quark mass, computed from the electric and inertia forces, is nearly identical to the value currently accepted in the Standard Model. Based on the electronic structure of the valence quarks one can deduce the electromagnetic nature of nuclear forces.
+
+\section{Introduction}
+
+The proton is a complex but very stable elementary particle with a life of over $4.4 \cdot 10^{33} years$ (Super Kamiokande). Until recently, the best values for the radius of the proton were provided by experiments that used electron scattering. The measurements of Hand et al. \( r_p\approx 0.805 \cdot 10^{–15}m \) [1] in 1963; Simon et al. \(r_p\approx 0.895 \cdot 10^{–15}m\) [2] in 1980, Borisyuk in 2010 have provided a value of \(r_p \approx 0.912 \cdot 10^{–15}m\) [3]. Very recently, based on the Lamb-shift of the muonic H atoms, Pohl and his colleagues found the value of \( r_p\approx 0.84184 \cdot 10^{–15}m\) and an uncertainty limit of 0.1\% [4], which is now regarded as the best value.
+
+In the following, using the help of a universal system of units, we obtain the radius of the proton $r_p$ through semi-empirical means, which approximates the best empirical results. 
+
+\subsection{Universal System of Units}
+
+Humanity's interpretation of basic measurement units was in connection with their environment. Later, quantities such as metre, second and kilogram were connected to observations on Earth. Planck was first to think of a measurement system independent of space and time, using the speed of light (c), the gravitational constant (G) and the quantum of action (h). 
+
+According to Planck's measurement system, the gravitational constant (G), the speed of light (c) and the quantum of action (h) are basic units. The unit of length becomes $4.05 x 10^{-35} m$ and  the unit of time becomes $1.35 x 10^{-43} s$, wich are too small for atomic or subatomic scales. On the other hand, the unit of the force is $1.2106 x10^{44} N$ -- a major cosmic force.
+
+However, besides the constants Planck chose for his measurement system, there are many other constants from which we can choose: elementary charge $(e)$, mass of the electron $(m_e)$, and its radius $(r_e)$, mass of the proton $(m_p)$, mass of the neutron $(m_n)$, the Planck's constant $(h)$, the radius of the observable universe $(R_u)$, its mass $(M_u)$, and its density $(\rho_u)$. 
+
+Here, we estimate the radius of the proton by constructing natural unit systems using universal constants. These include systems based on $(e, m_e, \hbar) (\mathbf{A})$; $(e, m_e, c) (\mathbf{B})$; $(e, m_p, \hbar) (\mathbf{C})$; and $(e, m_p, c) (\mathbf{D})$. 
+
+\section{Model}
+
+The basic units of model $\mathbf{A}$ are elementary charge, the mass of electron and Planck's constant. We denote length with $m_a$, mass with $k_a$, and time with $s_a$. The relationship between MKS, and this new system is $1 m = x_1 m_a$; $1kg=x_2k_a$; and $1s=x_3s_a$. Solving for $x$: 
+
+\[
+\begin{align} 
+    e\cdot x^{1/2}_{2} x^{3/2}_{1} x^{-1}_{3} = 1 \hspace{1cm} &\Rightarrow \hspace{1cm} x^2_3 = e^2 x_2 x^3_1 \\
+    m_ex_2 = 1 \hspace{1cm} & \Rightarrow \hspace{1cm} x_2 = \frac{1}{m_e} \\
+    \hbar \cdot x_2 x^2_1 x^{-1}_3 = 1 \hspace{1cm} & \Rightarrow \hspace{1cm} x_3 = \hbar x_2 x^2_1
+\end{align}
+\]
+
+\noindent Solving this equation system, and using the fine structure constant ($\alpha = e^2 / \hbar c$): $x_1 = \alpha^2 m_e c^2 / e^2$; $x_2 = m^{-1}_e$; $x_3 = \alpha^3 c ^3 m_e / e^2$. Using the same method, we can also derive the units from models $\mathbf{B}$, $\mathbf{C}$ and $\mathbf{D}$. Table 1 shows the basic and derived units of each model. 
+
+\vspace{1cm}
+\noindent\begin{tabularx}{\textwidth}{ l l | X X X X }
+    \hline
+    Units / Model & & $\mathbf{A}$ & $\mathbf{B}$ & $\mathbf{C}$ & $\mathbf{D}$ \\
+    \hline \hline
+    Length (m) & Eq & $e^2 / \alpha^2 c^2 m_e $ & $ e^2 / m_e c^2 $ & $ e^2 / \alpha^2 c^2 m_p $ & $ e^2 / m_p c^2 $ \\
+    & Val & $5.2918E^{-11}$ & $2.8181E^{-15} $ & $2.8818E^{-14} $ & $1.5348E^{-18} $ \\
+    Mass (kg) & & $ m_e \approx 9.1094 \cdot 10^{-31} $ & $ m_e \approx 9.1094 \cdot 10^{-31} $ & $ m_p \approx 1.6726 \cdot 10^{-27} $ & $ m_p\approx 1.6726 \cdot 10^{-27} $  \\
+    Time (s) & & $ e^2/\alpha^3 c^3 m_e \approx 2.4186 \cdot 10^{-17} $ & $ e^2/m_ec^3 \approx 9.4001 \cdot 10^{-24} $ & $ e^2/\alpha^3 c^3 m_p \approx 1.3172 \cdot 10^{-20} $ & $ e^2 / m_p c^3 \approx 5.1155 \cdot 10^{-27}$  \\
+    \hline
+
+\end{tabularx}
+
+
+
+
+\section{Conclusion}
+By choosing different universal constants to compose a system of units, we are able to establish relationships otherwise not possible through theoretical or empirical means. 
+
+
+
+
+
+\end{document}
